@@ -1,0 +1,38 @@
+{
+  "name": "designkit-layout",
+  "version": "0.0.1",
+  "description": "Sass module for css *.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rightscale-design/designkit-layout.git"
+  },
+  "author": {
+    "name": "Jason Melgoza",
+    "email": "jason@rightscale.com"
+  },
+  "main": "css/designkit-layout.css",
+  "style": "css/designkit-layout.css",
+  "scss": "src/index.scss",
+  "files": [
+    "src",
+    "css"
+  ],
+  "keywords": [
+    "css",
+    "Sass"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rightscale-design/designkit-layout#readme",
+  "devDependencies": {
+    "bourbon": "^4.2.7",
+    "http-server": "^0.9.0",
+    "node-sass": "^3.8.0",
+    "nodemon": "^1.10.0"
+  },
+  "scripts": {
+    "build-css": "./bin/build-css",
+    "build-min": "./bin/build-min",
+    "watch-css": "./bin/watch-css",
+    "serve": "./bin/http-server"
+  }
+}
