@@ -22,22 +22,15 @@ $layout-gutter-width:      ($baseline-grid * 2) !default;
 
 [layout] {
   box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -moz-flex;
-  display: -ms-flexbox;
   display: flex;
 }
 
 [layout=column] {
   flex-direction: column;
-  -webkit-flex-direction: column;
 }
 
 [layout=row] {
   flex-direction: row;
-  -webkit-flex-direction: row;
 }
 
 [layout-padding] > [flex-sm],
@@ -78,8 +71,6 @@ $layout-gutter-width:      ($baseline-grid * 2) !default;
   margin: $layout-gutter-width / 1;
 }
 
-
-
 [layout-wrap] {
   flex-wrap: wrap;
 }
@@ -118,11 +109,6 @@ $layout-gutter-width:      ($baseline-grid * 2) !default;
 @mixin layout-for-name($name) {
   [layout-#{$name}] {
     box-sizing: border-box;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
   }
   [layout-#{$name}=column] {
@@ -161,7 +147,6 @@ $layout-gutter-width:      ($baseline-grid * 2) !default;
     box-sizing: border-box;
     flex: 1;
   }
-
 
   // (0-20) * 5 = 0-100%
   @for $i from 0 through 20 {
