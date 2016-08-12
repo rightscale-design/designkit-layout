@@ -10,17 +10,11 @@
     "name": "Jason Melgoza",
     "email": "jason@rightscale.com"
   },
-  "main": "dist/designkit-layout.css",
   "style": "dist/designkit-layout.css",
   "scss": "src/scss/index.scss",
-  "files": [
-    "src/css",
-    "src/scss",
-    "dist"
-  ],
+  "main": "dist/designkit-layout.css",
   "keywords": [
     "css",
-    "Sass",
     "scss",
     "postcss"
   ],
@@ -36,7 +30,6 @@
     "postcss-cli": "^2.5.2"
   },
   "scripts": {
-    "start": "npm run serve && npm run watch",
     "scss": "./bin/scss",
     "prefix": "postcss -u autoprefixer -b 'last 2 versions' < src/css/_designkit-layout.css > dist/designkit-layout.css",
     "minify": "cleancss -o dist/designkit-layout.min.css dist/designkit-layout.css",
