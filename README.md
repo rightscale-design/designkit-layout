@@ -1,29 +1,16 @@
-# Designkit Layout
+# designkit-layout
+1.0.0
+
+Sass module for css flex layouts
 
 ## Install
-
-```bash
-npm i designkit-layout
+```
+npm i --save designkit-layout
 ```
 
-## Usage
-
-```html
-<div layout="row">
-  <div flex>
-    <!-- content -->
-  </div>
-</div>
-```
-
-## The CSS
+### CSS
 
 ```css
-/*
-//
-// designkit-layout
-// --------------------------------------------------
-*/
 /* Sizes:
   0    <= size < 600  Phone
   600  <= size < 960  Tablet
@@ -478,7 +465,6 @@ npm i designkit-layout
 [layout-align="space-around center"] {
   -webkit-box-align: center;
       -ms-flex-align: center;
-              -ms-grid-row-align: center;
           align-items: center;
 }
 
@@ -489,7 +475,6 @@ npm i designkit-layout
 [layout-align="space-around start"] {
   -webkit-box-align: start;
       -ms-flex-align: start;
-              -ms-grid-row-align: flex-start;
           align-items: flex-start;
 }
 
@@ -500,7 +485,6 @@ npm i designkit-layout
 [layout-align="space-around end"] {
   -webkit-box-align: end;
       -ms-flex-align: end;
-              -ms-grid-row-align: flex-end;
           align-items: flex-end;
 }
 
@@ -745,7 +729,6 @@ npm i designkit-layout
   [layout-align-sm="space-around center"] {
     -webkit-box-align: center;
         -ms-flex-align: center;
-                -ms-grid-row-align: center;
             align-items: center;
   }
   [layout-align-sm="center start"],
@@ -755,7 +738,6 @@ npm i designkit-layout
   [layout-align-sm="space-around start"] {
     -webkit-box-align: start;
         -ms-flex-align: start;
-                -ms-grid-row-align: flex-start;
             align-items: flex-start;
   }
   [layout-align-sm="center end"],
@@ -765,7 +747,6 @@ npm i designkit-layout
   [layout-align-sm="space-around end"] {
     -webkit-box-align: end;
         -ms-flex-align: end;
-                -ms-grid-row-align: flex-end;
             align-items: flex-end;
   }
   [layout-sm] {
@@ -1199,7 +1180,6 @@ npm i designkit-layout
   [layout-align-gt-sm="space-around center"] {
     -webkit-box-align: center;
         -ms-flex-align: center;
-                -ms-grid-row-align: center;
             align-items: center;
   }
   [layout-align-gt-sm="center start"],
@@ -1209,7 +1189,6 @@ npm i designkit-layout
   [layout-align-gt-sm="space-around start"] {
     -webkit-box-align: start;
         -ms-flex-align: start;
-                -ms-grid-row-align: flex-start;
             align-items: flex-start;
   }
   [layout-align-gt-sm="center end"],
@@ -1219,7 +1198,6 @@ npm i designkit-layout
   [layout-align-gt-sm="space-around end"] {
     -webkit-box-align: end;
         -ms-flex-align: end;
-                -ms-grid-row-align: flex-end;
             align-items: flex-end;
   }
   [layout-gt-sm] {
@@ -1659,7 +1637,6 @@ npm i designkit-layout
   [layout-align-md="space-around center"] {
     -webkit-box-align: center;
         -ms-flex-align: center;
-                -ms-grid-row-align: center;
             align-items: center;
   }
   [layout-align-md="center start"],
@@ -1669,7 +1646,6 @@ npm i designkit-layout
   [layout-align-md="space-around start"] {
     -webkit-box-align: start;
         -ms-flex-align: start;
-                -ms-grid-row-align: flex-start;
             align-items: flex-start;
   }
   [layout-align-md="center end"],
@@ -1679,7 +1655,6 @@ npm i designkit-layout
   [layout-align-md="space-around end"] {
     -webkit-box-align: end;
         -ms-flex-align: end;
-                -ms-grid-row-align: flex-end;
             align-items: flex-end;
   }
   [layout-md] {
@@ -2113,7 +2088,6 @@ npm i designkit-layout
   [layout-align-gt-md="space-around center"] {
     -webkit-box-align: center;
         -ms-flex-align: center;
-                -ms-grid-row-align: center;
             align-items: center;
   }
   [layout-align-gt-md="center start"],
@@ -2123,7 +2097,6 @@ npm i designkit-layout
   [layout-align-gt-md="space-around start"] {
     -webkit-box-align: start;
         -ms-flex-align: start;
-                -ms-grid-row-align: flex-start;
             align-items: flex-start;
   }
   [layout-align-gt-md="center end"],
@@ -2133,7 +2106,6 @@ npm i designkit-layout
   [layout-align-gt-md="space-around end"] {
     -webkit-box-align: end;
         -ms-flex-align: end;
-                -ms-grid-row-align: flex-end;
             align-items: flex-end;
   }
   [layout-gt-md] {
@@ -2573,7 +2545,6 @@ npm i designkit-layout
   [layout-align-lg="space-around center"] {
     -webkit-box-align: center;
         -ms-flex-align: center;
-                -ms-grid-row-align: center;
             align-items: center;
   }
   [layout-align-lg="center start"],
@@ -2583,7 +2554,6 @@ npm i designkit-layout
   [layout-align-lg="space-around start"] {
     -webkit-box-align: start;
         -ms-flex-align: start;
-                -ms-grid-row-align: flex-start;
             align-items: flex-start;
   }
   [layout-align-lg="center end"],
@@ -2593,7 +2563,6 @@ npm i designkit-layout
   [layout-align-lg="space-around end"] {
     -webkit-box-align: end;
         -ms-flex-align: end;
-                -ms-grid-row-align: flex-end;
             align-items: flex-end;
   }
   [layout-lg] {
@@ -3030,7 +2999,6 @@ npm i designkit-layout
   [layout-align-gt-lg="space-around center"] {
     -webkit-box-align: center;
         -ms-flex-align: center;
-                -ms-grid-row-align: center;
             align-items: center;
   }
   [layout-align-gt-lg="center start"],
@@ -3040,7 +3008,6 @@ npm i designkit-layout
   [layout-align-gt-lg="space-around start"] {
     -webkit-box-align: start;
         -ms-flex-align: start;
-                -ms-grid-row-align: flex-start;
             align-items: flex-start;
   }
   [layout-align-gt-lg="center end"],
@@ -3050,7 +3017,6 @@ npm i designkit-layout
   [layout-align-gt-lg="space-around end"] {
     -webkit-box-align: end;
         -ms-flex-align: end;
-                -ms-grid-row-align: flex-end;
             align-items: flex-end;
   }
   [layout-gt-lg] {
@@ -3394,11 +3360,8 @@ npm i designkit-layout
     max-height: 66.66%;
   }
 }
+
 ```
-
-## Credit
-
-Derived from the [angular-material](https://github.com/angular/material) project.
 
 ## Author
 
@@ -3406,10 +3369,4 @@ Jason Melgoza
 
 ## License
 
-The MIT License (MIT)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+MIT
